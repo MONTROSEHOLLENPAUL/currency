@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currencies app</title>
+    <link rel="stylesheet" href="./stylesExch.css">
+</head>
+<body>
+   <div class="container">
+     <div id="app">
+        <h1 class="title">Currency converter</h1>
+
+        <div class="amount">
+
+            <p>Enter Amount</p>
+
+            <input type="text" class="input"/>
+
+        </div>
+
+        <div class="Select">
+
+            <div class="from">
+
+                <p class="fromCurrency">From</p>
+                <div class="select">
+                    <img alt="flag_from"/>
+                 <select name="exchange" id="selected-exchange1">
+                 </select>
+                </div>
+
+            </div>
+
+            <div class="icon-exchange">
+                <span class="exchange">&#8644;</span>
+            </div>
+            
+
+            <div class="to">
+
+                <p class="toCurrency">To</p>
+                <div class="select">
+                    <img alt="flag_To"/>
+                 <select name="exchange" id="selected-exchange2">
+                 </select>
+                </div>
+
+             </div>
+            
+
+        </div>
+
+        <div class="exchange-rate">
+            <p class="exchange-rate_text"></p>
+        </div>
+
+        <div class="buttons">
+
+            <button type="submit" class="submit">Get Exchange Rate</button>
+            <button type="button" class="reset">Reset</button>
+
+        </div>
+    
+     </div> 
+      
+   </div>
+   <script src="./scriptExch.js"> 
+   </script>
+</body>
+</html>
